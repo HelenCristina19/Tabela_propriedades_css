@@ -13,10 +13,11 @@ body {
 
 .paragrafo_1 {
     margin: 10px auto 10px;
-    padding-left: 10px;
+    padding: 20px;
     width: 50%;
-    font-size: 20pt;
+    font-size: 18pt;
     color: #111010;
+    text-align: justify;
 
 }
 
@@ -30,15 +31,26 @@ body {
 .tittle_principal {
     margin: 40px auto 10px; /*margin: top right bottom left; */
     padding-left: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
     width: 80%;
     font-size: 30pt;
     font-weight: 700;
     color: #42240f; /* Código hexadecimal da cor */
     justify-content: center;
     display: flex;
-   
+  
+}
 
+.tittle_page{
+   margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 80%;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #42240f; /* Código hexadecimal da cor */
+    justify-content: center;
+    display: flex;
 }
 
 .images_index div{

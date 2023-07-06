@@ -5,8 +5,8 @@ body {
 }
 
 .immagem_do_banner {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     object-position: 0,10%;
  }
@@ -23,7 +23,7 @@ body {
 .seçao_1{
     margin-top: 80px;
     display: flex;
-    background-color: rgb(155, 131, 102);
+    background-color: rgb(184, 162, 136);
     justify-content: left;
 
 }
@@ -46,7 +46,7 @@ body {
     height: 500px;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--color-principal);
+    background-color: lemonchiffon;
     margin-bottom: 5px;
     border-radius: 60px;
   
@@ -67,8 +67,8 @@ body {
     height: calc(100vh - 58px - 120px) ;
   }
   .images_index h2 {
-    color: var(--color-text);
-    background: var(--color-principal);
+    color: black;
+   
     justify-content: center;
     display: flex;
     height: 15px;
@@ -85,6 +85,7 @@ body {
     width: 100%;
     mix-blend-mode: multiply;
    
-    
+  
   }
+  
   
